@@ -1,0 +1,34 @@
+<zk>
+	<window title="Registration Form"  border="normal" width="1000px">
+		<grid>
+         <columns>
+             <column label="Field" width="300px"/>
+             <column label="Enter Data" width="300px"/>
+         </columns>
+         <rows>
+             <row>
+                 <label value="Enter Name : "/>
+                 <textbox width="200px"/>
+             </row>
+             <row>
+                 <label value="Gender"/>
+                 <hbox>
+                     <listbox rows="1" mold="select" width="100px">
+                         <listitem label="Male"/>
+                         <listitem label="Female"/>
+                         <listitem label="Other"/>
+                     </listbox>
+                 </hbox>
+             </row>
+             <row>
+                 <label value="Address"/>
+                 <textbox rows="2" width="100px"/>
+                 
+             </row>
+             <row>
+           		 <button label="Submit" href="/index.zul"/>
+             </row>
+  		</rows>
+      	</grid>
+	</window>
+</zk>

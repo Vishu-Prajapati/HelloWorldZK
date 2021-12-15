@@ -1,0 +1,7 @@
+<zk>
+	<window>Hello !!!</window>
+	
+	<window apply="org.zkoss.bind.BindComposer" viewModel="@init('com.demo.HelloWorldZK.MyViewModel')"> 
+	    <button label="Submit" href="/HelloMsg.zul"/>
+	</window>
+</zk>
